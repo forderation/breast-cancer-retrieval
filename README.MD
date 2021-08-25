@@ -9,7 +9,7 @@
 - [Project Raw Version on Google Drive](https://drive.google.com/drive/folders/1oQXs24X8BIA4CqllPUQTk4PWDdTbJREf?usp=sharing)
 
 ### Citation
-#####If you are found any useful information from us please support by making citation based on our paper, gracias ✌
+##### If you are found any useful information from us please support by making citation based on our paper, gracias ✌
 A. E. Minarno, K. M. Ghufron, T. S. Sabrila, L. Husniah and F. D. S. Sumadi, "CNN Based Autoencoder Application in Breast Cancer Image Retrieval," 2021 International Seminar on Intelligent Technology and Its Applications (ISITIA), 2021, pp. 29-34, doi: 10.1109/ISITIA52817.2021.9502205.
 
 
