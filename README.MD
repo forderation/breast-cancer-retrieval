@@ -42,7 +42,7 @@ This is project structured are contained in this git repository
  ┗ 📜training_subclass_sample_400.py     [training subclass scenario example]
 ```
 
-### Supports
+### Assets
 - [Full Paper Here](https://ieeexplore.ieee.org/document/9502205)
 - [Dataset Source](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/)
 - [Project Raw Version on Google Drive](https://drive.google.com/drive/folders/1oQXs24X8BIA4CqllPUQTk4PWDdTbJREf?usp=sharing)
