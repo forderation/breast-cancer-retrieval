@@ -4,15 +4,14 @@
 
 ![alt text](./assets/app.png "RETRIEVAL")
 
-### Supports
-- [Full Paper Here](https://ieeexplore.ieee.org/document/9502205)
-- [Dataset Source](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/)
-- [Project Raw Version on Google Drive](https://drive.google.com/drive/folders/1oQXs24X8BIA4CqllPUQTk4PWDdTbJREf?usp=sharing)
+### TODO
+- ~~Usage with python native script~~
+- ~~Usage subclass with notebook~~
+- Usage binary scenario with notebook
+- Deployed version as a web service
 
-### Citation
-##### If you are found any useful information from us please support by making citation based on our paper, gracias ✌
-A. E. Minarno, K. M. Ghufron, T. S. Sabrila, L. Husniah and F. D. S. Sumadi, "CNN Based Autoencoder Application in Breast Cancer Image Retrieval," 2021 International Seminar on Intelligent Technology and Its Applications (ISITIA), 2021, pp. 29-34, doi: 10.1109/ISITIA52817.2021.9502205.
-
+### Abstract
+Content Based Medical Image Retrieval (CBMIR) is considered as a common technique to retrieve relevant images by comparing the features contained in the query image with the features contained in the image located in the database. Currently, the study related to CBMIR on breast cancer image however remains challenging due to inadequate research in such area. Previous study has a low performance and misinformation emphasizing the feature extraction process. Therefore, this study aims to utilize the CNN based Autoencoder method to minimize misinformation in the feature extraction process and to improve the performance result. The dataset used in this study is the BreakHis dataset. Overall, the results of image retrieval in breast cancer applying the CNN based Autoencoder method achieved higher performance compared to the method used in the previous study with an average precision of 0.9237 in the mainclass dataset category and 0.6825 in the subclass dataset category.
 
 ### Usage
 #### this is sample of flow running app based on our paper explanation
@@ -28,11 +27,15 @@ python training_subclass_sample_400.py
 python retrieval_sample.py
 python graph_sample.py
 ```
+### Still cumbersome
+##### Don't worry we have usage with notebook example with already dataset splitted
+##### - [Subclass 40X Magnification Example](notebook/Example_Usage_of_Subclass.ipynb)
 
 ### Project Structure
 This is project structured are contained in this git repository
 ```
 📦 projects
+ ┣ 📂notebook [collection notebook example usage]
  ┣ 📂utils
  ┃ ┣ 📜conv_auto_encoder.py [core of main model for deep learning feature extraction, you can change our model up to you]
  ┃ ┗ 📜retrieval.py [retrival supporting code]
@@ -45,5 +48,11 @@ This is project structured are contained in this git repository
  ┗ 📜training_subclass_sample_400.py     [training subclass scenario example]
 ```
 
-### Abstract
-Content Based Medical Image Retrieval (CBMIR) is considered as a common technique to retrieve relevant images by comparing the features contained in the query image with the features contained in the image located in the database. Currently, the study related to CBMIR on breast cancer image however remains challenging due to inadequate research in such area. Previous study has a low performance and misinformation emphasizing the feature extraction process. Therefore, this study aims to utilize the CNN based Autoencoder method to minimize misinformation in the feature extraction process and to improve the performance result. The dataset used in this study is the BreakHis dataset. Overall, the results of image retrieval in breast cancer applying the CNN based Autoencoder method achieved higher performance compared to the method used in the previous study with an average precision of 0.9237 in the mainclass dataset category and 0.6825 in the subclass dataset category.
+### Supports
+- [Full Paper Here](https://ieeexplore.ieee.org/document/9502205)
+- [Dataset Source](https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/)
+- [Project Raw Version on Google Drive](https://drive.google.com/drive/folders/1oQXs24X8BIA4CqllPUQTk4PWDdTbJREf?usp=sharing)
+
+### Citation
+##### If you are found any useful information from us please support by making citation based on our paper, gracias ✌
+A. E. Minarno, K. M. Ghufron, T. S. Sabrila, L. Husniah and F. D. S. Sumadi, "CNN Based Autoencoder Application in Breast Cancer Image Retrieval," 2021 International Seminar on Intelligent Technology and Its Applications (ISITIA), 2021, pp. 29-34, doi: 10.1109/ISITIA52817.2021.9502205.
