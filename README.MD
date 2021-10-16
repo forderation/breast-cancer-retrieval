@@ -4,12 +4,6 @@
 
 ![alt text](./assets/app.png "RETRIEVAL")
 
-### TODO
-- ~~Usage with python native script~~
-- ~~Usage subclass with notebook~~
-- Usage binary scenario with notebook
-- Deployed version as a web service
-
 ### Abstract
 Content Based Medical Image Retrieval (CBMIR) is considered as a common technique to retrieve relevant images by comparing the features contained in the query image with the features contained in the image located in the database. Currently, the study related to CBMIR on breast cancer image however remains challenging due to inadequate research in such area. Previous study has a low performance and misinformation emphasizing the feature extraction process. Therefore, this study aims to utilize the CNN based Autoencoder method to minimize misinformation in the feature extraction process and to improve the performance result. The dataset used in this study is the BreakHis dataset. Overall, the results of image retrieval in breast cancer applying the CNN based Autoencoder method achieved higher performance compared to the method used in the previous study with an average precision of 0.9237 in the mainclass dataset category and 0.6825 in the subclass dataset category.
 
@@ -56,3 +50,9 @@ This is project structured are contained in this git repository
 ### Citation
 ##### If you are found any useful information from us please support by making citation based on our paper, gracias ✌
 A. E. Minarno, K. M. Ghufron, T. S. Sabrila, L. Husniah and F. D. S. Sumadi, "CNN Based Autoencoder Application in Breast Cancer Image Retrieval," 2021 International Seminar on Intelligent Technology and Its Applications (ISITIA), 2021, pp. 29-34, doi: 10.1109/ISITIA52817.2021.9502205.
+
+### TODO
+- ~~Usage with python native script~~
+- ~~Usage subclass with notebook~~
+- Usage binary scenario with notebook
+- Deployed version as a web service
