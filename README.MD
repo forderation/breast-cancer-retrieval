@@ -24,6 +24,7 @@ python graph_sample.py
 ### Still cumbersome
 ##### Don't worry we have usage with notebook example with already dataset splitted
 ##### - [Subclass 40X Magnification Example](notebook/Example_Usage_of_Subclass.ipynb)
+##### - [Binary 40X Magnification Example](notebook/Example_Usage_of_Binary.ipynb)
 
 ### Project Structure
 This is project structured are contained in this git repository
@@ -54,5 +55,5 @@ A. E. Minarno, K. M. Ghufron, T. S. Sabrila, L. Husniah and F. D. S. Sumadi, "CN
 ### TODO
 - ~~Usage with python native script~~
 - ~~Usage subclass with notebook~~
-- Usage binary scenario with notebook
+- ~~Usage binary scenario with notebook~~
 - Deployed version as a web service
