@@ -30,17 +30,17 @@ python graph_sample.py
 This is project structured are contained in this git repository
 ```
 📦 projects
- ┣ 📂notebook [collection notebook example usage]
- ┣ 📂utils
- ┃ ┣ 📜conv_auto_encoder.py [core of main model for deep learning feature extraction, you can change our model up to you]
- ┃ ┗ 📜retrieval.py [retrival supporting code]
- ┣ 📜core_split.py   [core support for splitting images]
- ┣ 📜graph_sample.py     [draw chart from comparison of training]
- ┣ 📜retrieval_sample.py     [retrieval sample on 400x Magnification]
- ┣ 📜split_image_binary.py   [splitting images based on binary scenario]
- ┣ 📜split_image_multi_class.py      [splitting images based on subclass from all available class]
- ┣ 📜training_binary_sample_400.py   [training binary scenario example]
- ┗ 📜training_subclass_sample_400.py     [training subclass scenario example]
+ ┣ 📂 notebook [collection notebook example usage]
+ ┣ 📂 utils
+ ┃ ┣ 📜 conv_auto_encoder.py [core of main model for deep learning feature extraction, you can change our model up to you]
+ ┃ ┗ 📜 retrieval.py [retrival supporting code]
+ ┣ 📜 core_split.py   [core support for splitting images]
+ ┣ 📜 graph_sample.py     [draw chart from comparison of training]
+ ┣ 📜 retrieval_sample.py     [retrieval sample on 400x Magnification]
+ ┣ 📜 split_image_binary.py   [splitting images based on binary scenario]
+ ┣ 📜 split_image_multi_class.py      [splitting images based on subclass from all available class]
+ ┣ 📜 training_binary_sample_400.py   [training binary scenario example]
+ ┗ 📜 training_subclass_sample_400.py     [training subclass scenario example]
 ```
 
 ### Assets
