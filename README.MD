@@ -57,3 +57,161 @@ A. E. Minarno, K. M. Ghufron, T. S. Sabrila, L. Husniah and F. D. S. Sumadi, "CN
 - ~~Usage subclass with notebook~~
 - ~~Usage binary scenario with notebook~~
 - Deployed version as a web service
+
+### Datapath structure used
+```
+binary_scenario
+├── test
+│   ├── 100X
+│   │   ├── benign
+│   │   └── malignant
+│   ├── 200X
+│   │   ├── benign
+│   │   └── malignant
+│   ├── 400X
+│   │   ├── benign
+│   │   └── malignant
+│   └── 40X
+│       ├── benign
+│       └── malignant
+├── train
+│   ├── 100X
+│   │   ├── benign
+│   │   └── malignant
+│   ├── 200X
+│   │   ├── benign
+│   │   └── malignant
+│   ├── 400X
+│   │   ├── benign
+│   │   └── malignant
+│   └── 40X
+│       ├── benign
+│       └── malignant
+└── val
+    ├── 100X
+    │   ├── benign
+    │   └── malignant
+    ├── 200X
+    │   ├── benign
+    │   └── malignant
+    ├── 400X
+    │   ├── benign
+    │   └── malignant
+    └── 40X
+        ├── benign
+        └── malignant
+```
+```
+subclass_scenario
+├── test
+│   ├── 100X
+│   │   ├── adenosis
+│   │   ├── ductal_carcinoma
+│   │   ├── fibroadenoma
+│   │   ├── lobular_carcinoma
+│   │   ├── mucinous_carcinoma
+│   │   ├── papillary_carcinoma
+│   │   ├── phyllodes_tumor
+│   │   └── tubular_adenoma
+│   ├── 200X
+│   │   ├── adenosis
+│   │   ├── ductal_carcinoma
+│   │   ├── fibroadenoma
+│   │   ├── lobular_carcinoma
+│   │   ├── mucinous_carcinoma
+│   │   ├── papillary_carcinoma
+│   │   ├── phyllodes_tumor
+│   │   └── tubular_adenoma
+│   ├── 400X
+│   │   ├── adenosis
+│   │   ├── ductal_carcinoma
+│   │   ├── fibroadenoma
+│   │   ├── lobular_carcinoma
+│   │   ├── mucinous_carcinoma
+│   │   ├── papillary_carcinoma
+│   │   ├── phyllodes_tumor
+│   │   └── tubular_adenoma
+│   └── 40X
+│       ├── adenosis
+│       ├── ductal_carcinoma
+│       ├── fibroadenoma
+│       ├── lobular_carcinoma
+│       ├── mucinous_carcinoma
+│       ├── papillary_carcinoma
+│       ├── phyllodes_tumor
+│       └── tubular_adenoma
+├── train
+│   ├── 100X
+│   │   ├── adenosis
+│   │   ├── ductal_carcinoma
+│   │   ├── fibroadenoma
+│   │   ├── lobular_carcinoma
+│   │   ├── mucinous_carcinoma
+│   │   ├── papillary_carcinoma
+│   │   ├── phyllodes_tumor
+│   │   └── tubular_adenoma
+│   ├── 200X
+│   │   ├── adenosis
+│   │   ├── ductal_carcinoma
+│   │   ├── fibroadenoma
+│   │   ├── lobular_carcinoma
+│   │   ├── mucinous_carcinoma
+│   │   ├── papillary_carcinoma
+│   │   ├── phyllodes_tumor
+│   │   └── tubular_adenoma
+│   ├── 400X
+│   │   ├── adenosis
+│   │   ├── ductal_carcinoma
+│   │   ├── fibroadenoma
+│   │   ├── lobular_carcinoma
+│   │   ├── mucinous_carcinoma
+│   │   ├── papillary_carcinoma
+│   │   ├── phyllodes_tumor
+│   │   └── tubular_adenoma
+│   └── 40X
+│       ├── adenosis
+│       ├── ductal_carcinoma
+│       ├── fibroadenoma
+│       ├── lobular_carcinoma
+│       ├── mucinous_carcinoma
+│       ├── papillary_carcinoma
+│       ├── phyllodes_tumor
+│       └── tubular_adenoma
+└── val
+    ├── 100X
+    │   ├── adenosis
+    │   ├── ductal_carcinoma
+    │   ├── fibroadenoma
+    │   ├── lobular_carcinoma
+    │   ├── mucinous_carcinoma
+    │   ├── papillary_carcinoma
+    │   ├── phyllodes_tumor
+    │   └── tubular_adenoma
+    ├── 200X
+    │   ├── adenosis
+    │   ├── ductal_carcinoma
+    │   ├── fibroadenoma
+    │   ├── lobular_carcinoma
+    │   ├── mucinous_carcinoma
+    │   ├── papillary_carcinoma
+    │   ├── phyllodes_tumor
+    │   └── tubular_adenoma
+    ├── 400X
+    │   ├── adenosis
+    │   ├── ductal_carcinoma
+    │   ├── fibroadenoma
+    │   ├── lobular_carcinoma
+    │   ├── mucinous_carcinoma
+    │   ├── papillary_carcinoma
+    │   ├── phyllodes_tumor
+    │   └── tubular_adenoma
+    └── 40X
+        ├── adenosis
+        ├── ductal_carcinoma
+        ├── fibroadenoma
+        ├── lobular_carcinoma
+        ├── mucinous_carcinoma
+        ├── papillary_carcinoma
+        ├── phyllodes_tumor
+        └── tubular_adenoma
+```
